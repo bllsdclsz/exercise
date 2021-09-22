@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Contact Page</title>
+   </head>
+   <body>
+      <table width="100%">
+         <tr>
+            <header>
+               <table width="100%">
+                  <tr>
+                     <td width="90%">
+                        <img src="./hiCoders.png" alt="logo" height="20px" />
+                     </td>
+                     <td>
+                        <nav>
+                           <table>
+                              <tr>
+                                 <td><a href="./home.html">Home</a></td>
+                                 <td><a href="./contact.html">Contact</a></td>
+                              </tr>
+                           </table>
+                        </nav>
+                     </td>
+                  </tr>
+               </table>
+               <hr />
+            </header>
+            <section>
+               <table width="100%">
+                  <tr>
+                     <td width="20%"></td>
+                     <td width="60%" bgcolor="#f3f3f3">
+                        <table width="100%">
+                           <tr>
+                              <td width="25%"></td>
+                              <td width="50%">
+                                 <h3>The HiCoders welcomes you!</h3>
+                                 <p>
+                                    We are experienced software engineers. We voluntarily help people who are interested in IT and run
+                                    various courses for this purpose. If you are interested in our course, do not hesitate to contact us!
+                                 </p>
+                              </td>
+                              <td width="25%"></td>
+                           </tr>
+                        </table>
+                     </td>
+                     <td width="20%"></td>
+                  </tr>
+               </table>
+            </section>
+            <article>
+               <section>
+                  <table width="100%">
+                     <tr>
+                        <td width="20%"></td>
+                        <td width="60%" bgcolor="#f3f3f3">
+                           <table width="100%">
+                              <tr>
+                                 <td width="25%"></td>
+                                 <td width="50%">
+                                    <fieldset>
+                                       <legend>Personal Information</legend>
+                                       <form>
+                                          <div>
+                                             <label for="firstname">Firstname</label><br />
+                                             <input
+                                                type="text"
+                                                name="firstname"
+                                                id="firstname"
+                                                placeholder="Please enter your firstname!"
+                                             />
+                                          </div>
+                                          <div>
+                                             <label for="lastname">Lastname</label><br />
+                                             <input type="text" name="lastname" id="lastname" placeholder="Please enter your lastname!" />
+                                          </div>
+                                          <div>
+                                             <label for="email">Email</label><br />
+                                             <input type="email" name="email" id="email" placeholder="Please enter your email!" />
+                                          </div>
+                                          <div>
+                                             <label for="gender">Gender</label>
+                                             <div>
+                                                <input type="radio" name="female" id="female" value="female" />
+                                                <label for="female">Female</label><br />
+                                                <input type="radio" name="male" id="male" value="male" />
+                                                <label for="male">Male</label>
+                                             </div>
+                                          </div>
+                                          <div>
+                                             <label for="phone">Phone</label><br />
+                                             <input type="tel" name="phone" id="phone" placeholder="Please enter your phone no.!" />
+                                          </div>
+                                          <div>
+                                             <label for="graduation">Graduation</label><br />
+                                             <select name="graduation" id="graduation" multiple>
+                                                <option value="PhD.">PhD.</option>
+                                                <option value="Master">Master</option>
+                                                <option value="Bachelor">Bachelor</option>
+                                                <option value="Association">Association</option>
+                                             </select>
+                                          </div>
+                                          <div>
+                                             <label for="expectation">What do you expect from this course?</label><br />
+                                             <textarea name="expectation" id="expectation" cols="50" rows="8"></textarea>
+                                          </div>
+                                          <div>
+                                             <label for="opinion">Why do you want to learn programming?</label><br />
+                                             <textarea name="opinion" id="opinion" cols="50" rows="8"></textarea>
+                                          </div>
+                                       </form>
+                                    </fieldset>
+                                 </td>
+                                 <td width="25%"></td>
+                              </tr>
+                           </table>
+                        </td>
+                        <td width="20%"></td>
+                     </tr>
+                  </table>
+               </section>
+               <section>
+                  <table width="100%">
+                     <tr>
+                        <td width="20%"></td>
+                        <td width="60%" bgcolor="#f3f3f3">
+                           <table width="100%">
+                              <tr>
+                                 <td width="25%"></td>
+                                 <td width="50%">
+                                    <fieldset>
+                                       <legend>Family Members</legend>
+                                       <form>
+                                          <div>
+                                             <label for="status">Are you married?</label><br />
+                                             <input type="radio" name="yes" id="yes" value="yes" />
+                                             <label for="yes">Yes</label><br />
+                                             <input type="radio" name="no" id="no" value="no" />
+                                             <label for="no">No</label>
+                                          </div>
+                                          <div>
+                                             <label for="children">If you married, how many child do you have?</label><br />
+                                             <input type="number" name="children" id="children" placeholder="Enter number of children!" />
+                                          </div>
+                                       </form>
+                                    </fieldset>
+                                 </td>
+                                 <td width="25%"></td>
+                              </tr>
+                           </table>
+                        </td>
+                        <td width="20%"></td>
+                     </tr>
+                  </table>
+               </section>
+               <section>
+                  <table width="100%">
+                     <tr>
+                        <td width="20%"></td>
+                        <td width="60%" bgcolor="#f3f3f3">
+                           <table width="100%">
+                              <tr>
+                                 <td width="25%"></td>
+                                 <td width="50%">
+                                    <fieldset>
+                                       <legend>Confirmation and Application</legend>
+                                       <form>
+                                          <div>
+                                             <label for="choice">Which ones are you familiar with?</label><br />
+                                             <input type="checkbox" name="html" id="html" /> <label for="html">HTML</label><br />
+                                             <input type="checkbox" name="css" id="css" /> <label for="css">CSS</label><br />
+                                             <input type="checkbox" name="bootstrap" id="bootstrap" />
+                                             <label for="bootstrap">Bootstrap</label><br />
+                                             <input type="checkbox" name="javascript" id="javascript" />
+                                             <label for="javascript">JavaScript</label><br />
+                                             <input type="checkbox" name="nodejs" id="nodejs" /> <label for="nodejs">NodeJS</label><br />
+                                             <input type="checkbox" name="reactjs" id="reactjs" /> <label for="reactjs">ReactJS</label
+                                             ><br />
+                                          </div>
+                                          <div>
+                                             <label for="CV">Add your CV</label><br />
+                                             <input type="file" name="CV" id="CV" />
+                                          </div>
+                                          <div>
+                                             <input type="checkbox" name="consent" id="consent" />
+                                             <label for="consent">
+                                                Please confirm by ticking the box after reading the
+                                                <a href="#">privacy terms and conditions</a>!
+                                             </label>
+                                          </div>
+                                          <div>
+                                             <button type="button">Submit</button>
+                                          </div>
+                                       </form>
+                                    </fieldset>
+                                 </td>
+                                 <td width="25%"></td>
+                              </tr>
+                           </table>
+                        </td>
+                        <td width="20%"></td>
+                     </tr>
+                  </table>
+               </section>
+            </article>
+            <hr />
+            <footer align="center" width="100%">
+               <table width="100%" bgcolor="#e4e4e4">
+                  <tr>
+                     <td width="35%"></td>
+                     <td width="20%">
+                        <h4>Our Course Phases</h4>
+                        &#9900; Web Fundamentals <br />
+                        &#9900; Web Programming <br />
+                        &#9900; Fullstack Web Programming <br />
+                        &#9900; Capstone Project
+                     </td>
+                     <td width="20%">
+                        <h4>Contact</h4>
+                        &#9993; <a href="mailto:info@hicoders.ch">info@hicoders.ch</a><br />
+                        &#9990; <a href="tel:+41009001010">+41009001010</a><br />
+                        &#10023; Schaffhauserstrasse 470, <br />
+                        8052 Zürich
+                     </td>
+                     <td width="35%"></td>
+                  </tr>
+               </table>
+            </footer>
+         </tr>
+      </table>
+   </body>
+</html>

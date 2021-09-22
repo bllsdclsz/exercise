@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Volkan Y" />
+    <title>VolkanY-productb</title>
+    <!--bu bölümde class ve id attributeleri kullanıldı--> 
+    <style>
+        h1.başlık1 {color: #f8f803; background-color:rgb(160, 241, 233); text-align: center;}
+        p.önemli {color:red; background-color: beige; font-style: italic;}
+
+            #ürün1 { text-align: center; font-style: italic; background-color: rgb(55, 55, 221);}
+            #ürün2 { text-align: center; font-style: inherit; background-color: rgb(241, 171, 183);}
+            #ürün3 { text-align: center; font-style: unset; background-color: rgb(124, 212, 124);}
+        </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="başlık1">STAR GÖZLÜKLERİ</h1>
+    </header>
+    <!--bu kısımda nav tagi içinde table tagı kullanıldı-->
+    <nav>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>
+              <a href="products-a.html" target="_self">
+                <img
+                  width="500"
+                  height="200"
+                  src="./ürün11.jpg"
+                  alt="erkek güneş gözlüğü"
+              /></a>
+            </th>
+            <th>
+              <a href="products-b.html" target="_self">
+                <img
+                  width="500"
+                  height="200"
+                  src="./ürün22.jpg"
+                  alt="kadın güneş gözlüğü"
+              /></a>
+            </th>
+            <th>
+              <a href="products-c.html" target="_self">
+                <img
+                  width="500"
+                  height="200"
+                  src="./ürün33.jpg"
+                  alt="çocuk güneş gözlüğü"
+              /></a>
+            </th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td id="ürün1"><a href="#section1">Erkek Güneş Gözlükleri</a></td>
+            <td id="ürün2">
+              <a href="products-b.html" target="_self"
+                >Kadın Güneş Gözlükleri</a
+              >
+            </td>
+            <td id="ürün3">
+              <a href="products-c.html" target="_self"
+                >Çocuk Güneş Gözlükleri</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </nav>
+
+    <main>
+      <section>
+        <p class="önemli">
+          Her keseye ve kişiye uygun güneş gözlüklerimiz mevcuttur.
+        </p>
+      </section>
+
+      <section>
+        <section>
+          <h3>Kaliteli Bir Güneş Gözlüğünün Özellikleri Nelerdir?</h3>
+
+          <ul style="list-style: square">
+            <li>
+              Güneş gözlüğünün cam renginden ziyade UV blokaj oranı önemlidir.
+              Kalite bir güneş gözlüğü UV ışınlarını bloke etmelidir.
+            </li>
+            <li>
+              Güneş gözlüğü takıldığında görülen alanda bulanıklık olmamalıdır.
+            </li>
+            <li>
+              Güneş gözlüğünün çerçevesinde ve camında çizik, ezik olmamalıdır.
+              Cam rengi camın her yerinde eşit olmalıdır.
+            </li>
+            <li>
+              Numarasız camları olan güneş gözlüklerinde görülen görüntü sabit
+              olmalı, hareket etmemelidir.
+            </li>
+            <li>Güneş gözlüğünde CE işareti olmalıdır.</li>
+            <li>
+              Satın alınacak güneş gözlüğünü garanti belgesine ve sertifikaya
+              sahip olmalıdır.
+            </li>
+          </ul>
+        </section>
+
+        <!--bu kısımda makale olduğu için semantik açıdan article tagı kullanıldı-->
+        <article>
+          <h2>Güneş Gözlükleri Gözleri Nasıl Korur?</h2>
+
+          <section>
+            <footer>
+              <small>Yazar: Dr. Tuba Sarıgül </small> <br />
+              <em>12/01/2018 - 09:00</em>
+            </footer>
+          </section>
+          <p>
+            Güneş’ten Dünya’ya ulaşan morötesi dalga boyundaki ışınların (UV)
+            özellikle cilt üzerindeki zararlı etkileri hakkında fikir sahibiyiz.
+            Ancak UV ışınlar gözün yüzeyindeki dokulara ve gözün içindeki
+            yapılara, örneğin korneaya, retinaya ve göz merceğine de zarar
+            verebilir. UV ışınların dalga boyu (100-400 nanometre) görünür
+            ışıktan daha kısadır ve insanlar tarafından görülemez. Ancak
+            Güneş’ten yayılan morötesi ışınların tamamı yeryüzüne ulaşmaz. Dalga
+            boyu 100-280 nanometre aralığındaki morötesi ışınlar (UVC) atmosfer
+            tarafından tamamen soğurulurken, dalga boyu 280-315 nanometre
+            aralığındaki morötesi ışınların (UVB) küçük bir bölümü ve UVA
+            ışınlar (dalga boyu 315 nanometreden büyük olan morötesi ışınlar)
+            yeryüzüne ulaşır. Araştırmalar UVA ve UVB ışınların erken cilt
+            yaşlanması, cilt kanseri ve göz hasarlarına (örneğin katarakt) sebep
+            olduğunu gösteriyor. Güneş ışınlarının zararlı etkilerinden gözü
+            korumak amacıyla kullanılan güneş gözlükleri etkin bir koruma
+            sağlamak için morötesi ışınların neredeyse tamamını (%99-100)
+            engellemelidir. Bunun için genellikle UV ışığı engelleyebilen
+            özellikte gözlük camları ya da kaplamalar kullanılır. Ayrıca güneş
+            gözlüklerinde kullanılan renklendirilmiş camlar belli dalga
+            boylarındaki ışığı soğurarak bu ışınların göze ulaşmasını engeller.
+            Ancak günümüzde güneş gözlüklerinin UV ışınları engellemek dışında
+            farklı özelliklere de sahip olması isteniyor. Dalga boyu daha kısa
+            olan yüksek enerjili görünür ışığın (örneğin mavi ve mor ışık)
+            retinada hasara yol açtığını gösteren araştırmalar nedeniyle, güneş
+            gözlüklerinin mavi/mor ışığa karşı da koruma sağlaması tavsiye
+            ediliyor. Polarize camlı güneş gözlükleri ise güneş ışınlarının su,
+            kar ya da cam gibi yüzeylerden yansımasıyla oluşan ve görüşü
+            zorlaştıran parlamayı azaltır. Elektrik alan ve manyetik alan
+            bileşenlerine sahip olan ışığın yani elektromanyetik dalganın
+            hareket yönü, elektrik ve manyetik alanın yönüne diktir. Işığın
+            polarizasyonundan bahsedilirken genellikle elektrik alan dikkate
+            alınır. Polarize olmayan ışıkta elektrik alanın yönü her doğrultuda
+            olabilirken polarize ışıkta belirli bir yöndedir. Güneş’ten ya da
+            yapay bir ışık kaynağından yayılan elektromanyetik dalgalar
+            genellikle polarize değildir, ancak bir yüzeyden yansıdığında
+            polarize olur. Polarize camlı güneş gözlükleri yüzeyden yansıyan
+            polarize ışığı engelleyerek parlamayı azaltır. Güneş gözlüğü
+            seçiminde genellikle estetik kaygılar ön planda olsa da göz
+            sağlığını korumak için öncelikle güneş gözlüğünün sahip olduğu
+            özellikler kontrol edilmelidir.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <h2 id="section1">Çocuk Güneş Gözlükleri</h2>
+        <figure>
+          <img
+            src="./bebek.jpg"
+            width="500"
+            height="300"
+            alt="Gözlüklü çocuk fotoğrafı"
+          />
+          <figcaption>Foto</figcaption>
+        </figure>
+      </section>
+    </main>
+  </body>
+</html>
